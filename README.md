@@ -29,4 +29,15 @@ Despues del balanceo quedó con la siguiente estructura:
 <img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/tarjet_balanceado.png"  width="500" height="300" >
 </p>
 
-una vez los datos han sido balanceados y ajustados se procede a la creación del modelo para llevar a cabo la predicción se utilizo *`las redes neuronales convoluvionales`.*
+una vez los datos han sido balanceados y ajustados se procede a la creación del modelo para llevar a cabo la predicción se utilizo *`las redes neuronales convolucionales`.*
+
+## **Deep Learnig**
+Se carga el dataset procesado, y se codifican las variables, el modelo de clasificación se separa en *`malware`* = 1 y *`BenignTraffic`* = 0, con el metodo *`SMOTE`* se aumentan todos los datos del dataframe para que al modelo le sea mas facil reconocer las clases de las variasbles independientes, y asi obtener mejores resultados.
+
+se establecen 4 Callbacks para controlar el corte temprano del entrenamiento y asi optimizar recursos calibrando por ejemplo la tasa de aprendizaje. antes de intanciar el modelo se realiza un scalado en este caso se utilizó el StandarScaler(), Se instancia el modelo con capas convolucionales, agrupamiento, densas, drop out y normalización. la regularización empleada para evitar el sobreajuste es "L2", se compila el modelo con el optimizador, función de perdida y metricas de evaluación, se especifica la cantidad de iteraciones, callbacks, etc, una vez entrenado se visualizan las graficas:
+
+* Función de perdida.
+* Accuracy.
+* Tasa de aprendizaje.
+
+los resultados del modelo se pueden ver a continuación
