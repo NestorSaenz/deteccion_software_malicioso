@@ -57,6 +57,6 @@ Luego de ser entrenado y compilado se realizan predicciones con dos datasets que
 
 se genera la matriz de connfusión y a partir de ella se calculan las siguientes metricas:
 <p align="center">
-<img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/tarjet_balanceado.png"  width="500" height="300" >
+<img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/metrcias_prediccion.png"  width="200" height="100" >
 </p>
 
