@@ -11,5 +11,5 @@ EL desarrollo del presente proyecto surge de la necesidad de poder clasificar un
 ## **Analisís exploratorio de los datos**
 
 La calidad d elos datos proveniento de la pagina oficial es buena por lo tanto no amerita ninguna transformacion inicial, despues de explorar los datos se evidencia que las variables independientes estan muy desbalanceadas, hay clases con muy pocos datos, a continuacion se puede visualizar: <p align="center">
-<img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/Captura%20de%20pantalla%202024-05-28%20004828.png"  width="300" height="200" >
+<img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/Captura%20de%20pantalla%202024-05-28%20004828.png"  width="500" height="300" >
 </p>
