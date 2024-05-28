@@ -21,5 +21,10 @@ Para darle solución a este problema lo que hice fue tomar la etiqueta con la mi
 
 Revisando la etiqueta objetivo tambien se observa un desbalanceo muy fuerte como se ve en la siguiente imagen:
 <p align="center">
+<img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/target_desbalanceado.png"  width="500" height="300" >
+</p>
+
+Despues del balanceo quedó con la siguiente estructura:
+<p align="center">
 <img src=""  width="500" height="300" >
 </p>
