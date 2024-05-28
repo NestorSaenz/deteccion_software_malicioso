@@ -49,6 +49,6 @@ Los resultados del modelo se pueden ver a continuación:
 
 ## Métricas prueba
 <p align="center">
-<img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/metricas_entrenamiento.png"  width="300" height="200" >
+<img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/metricas_prueba.png"  width="300" height="200" >
 </p>
 
