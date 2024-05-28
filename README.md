@@ -10,7 +10,7 @@ EL desarrollo del presente proyecto surge de la necesidad de poder clasificar un
 
 ## **Analisís exploratorio de los datos**
 
-La calidad de los datos proveniento de la pagina oficial es buena por lo tanto no amerita ninguna transformacion inicial, despues de explorar los datos se evidencia que las variables independientes estan muy desbalanceadas, hay clases con muy pocos datos, a continuacion se puede visualizar: <p align="center">
+La calidad de los datos provenientes de la pagina oficial es buena por lo tanto no amerita ninguna transformacion inicial, despues de explorar los datos se evidencia que las variables independientes estan muy desbalanceadas, hay clases con muy pocos datos, a continuación, se puede visualizar: <p align="center">
 <img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/Captura%20de%20pantalla%202024-05-28%20004828.png"  width="500" height="300" >
 </p>
 
@@ -29,7 +29,7 @@ Despues del balanceo quedó con la siguiente estructura:
 <img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/tarjet_balanceado.png"  width="500" height="300" >
 </p>
 
-una vez los datos han sido balanceados y ajustados se procede a la creación del modelo para llevar a cabo la predicción se utilizo *`las redes neuronales convolucionales`.*
+una vez los datos han sido balanceados y ajustados se procede a la creación del modelo, para llevar a cabo la predicción se utilizo *`las redes neuronales convolucionales`.*
 
 ## **Deep Learnig**
 Se carga el dataset procesado, y se codifican las variables, el modelo de clasificación se separa en *`malware`* = 1 y *`BenignTraffic`* = 0, con el metodo *`SMOTE`* se aumentan todos los datos del dataframe para que al modelo le sea mas facil reconocer las clases de las variasbles independientes, y asi obtener mejores resultados.
@@ -40,4 +40,4 @@ se establecen 4 Callbacks para controlar el corte temprano del entrenamiento y a
 * Accuracy.
 * Tasa de aprendizaje.
 
-los resultados del modelo se pueden ver a continuación
+Los resultados del modelo se pueden ver a continuación
