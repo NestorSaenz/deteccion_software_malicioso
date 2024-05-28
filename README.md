@@ -52,3 +52,11 @@ Los resultados del modelo se pueden ver a continuación:
 <img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/metricas_prueba.png"  width="300" height="200" >
 </p>
 
+## Predicciones
+Luego de ser entrenado y compilado se realizan predicciones con dos datasets que el modelo no conoce, de esta forma se evalúa su comportamiento. se aplica el mismo escalado de los datos de entrenamiento, se realizan las predicciones con el método predict() y se comparan las predicciones con los valores reales.
+
+se genera la matriz de confusión y a partir de ella se calculan las siguientes métricas:
+<p align="center">
+<img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/metrcias_prediccion.png"  width="300" height="100" >
+</p>
+
