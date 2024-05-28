@@ -16,5 +16,5 @@ La calidad de los datos proveniento de la pagina oficial es buena por lo tanto n
 
 Para darle solución a este problema lo que hice fue tomar la etiqueta con la minima cantidad y tomar ejemplos aleatorios de las otras etiquetas con esa misma cantidad exceptuando la etiqueta de benigno, asi quedaron los datos despues de dicho proceso:
 <p align="center">
-<img src=""  width="500" height="300" >
+<img src="https://github.com/NestorSaenz/deteccion_software_malicioso/blob/main/imagenes/etiquetas_balanceado.png"  width="500" height="300" >
 </p>
